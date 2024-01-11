@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>json</title>
+</head>
+<body>
+  <script>
+    text = '{"id":1, "firstname":"reza", "lastname":"gholamlitabar", "cars":["bmw", "sapia"], "education": {"deploma": true,"bachelor": true,"master": false}}'
+    obj = JSON.parse(text)
+    console.log(obj)
+    if(obj.education.master == true){
+      console.log("hello master man");
+    }else if(obj.education.bachelor == true){
+      console.log("hello bachelor man");
+    }
+    respose = JSON.stringify(obj)
+    console.log(respose);
+  </script>
+</body>
+</html>

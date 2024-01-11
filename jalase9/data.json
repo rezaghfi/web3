@@ -1,0 +1,11 @@
+{
+  "id" : 1,
+  "firstname": "reza",
+  "lastname" : "gholamalitabar",
+  "cars": ["ford", "sapia"],
+  "education": {
+    "deploma": true,
+    "bachelor": true,
+    "master": false
+  }
+}
